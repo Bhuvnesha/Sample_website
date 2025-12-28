@@ -68,3 +68,36 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### Simple Dashboard App
+(Login → Dashboard → Pages)
+
+
+###  STANDARD REACT PROJECT ARCHITECTURE
+
+src/
+ ├─ app/
+ │   ├─ App.jsx
+ │   ├─ routes.jsx
+ │
+ ├─ components/
+ │   ├─ ui/
+ │   ├─ layout/
+ │
+ ├─ features/
+ │   ├─ auth/
+ │   ├─ dashboard/
+ │
+ ├─ hooks/
+ ├─ services/
+ ├─ context/
+ ├─ utils/
+ ├─ styles/
+ └─ main.jsx
+
+
+ This structure works for:
+✔ Admin portals
+✔ Banking apps
+✔ SaaS dashboards
+✔ E-commerce apps
